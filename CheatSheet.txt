@@ -16,7 +16,6 @@ Git Shortcut Commands
 
 Combining Commands:
 
-
     $ gitroot push (first move to git root folder, then push)
     $ gitroot pull
 

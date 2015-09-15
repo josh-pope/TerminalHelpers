@@ -6,7 +6,6 @@ $ nano ~/.bash_profile
 Copy the below text into it (MAKE SURE THE PATHS ARE CORRECT TO YOUR OPERATING SYSTEM):
 
 
-
 ==== BEGIN COPY ONE LINE BELOW ====
 alias push='git push';
 alias pull='git pull';
