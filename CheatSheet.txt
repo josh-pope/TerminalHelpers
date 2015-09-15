@@ -1,0 +1,41 @@
+Git Shortcut Commands
+
+    $ push = "git push"
+
+    $ pull = "git push"
+
+    $ status = "git status"
+
+    $ gitroot = "cd /git/root/folder"
+
+    $ add * =  add files to git (eg add /adsf/adsf/asdf OR add *)
+
+    $ checkout $a = (checkout git@gitblah.com?asdfasdf
+
+    $ commit "msg"
+
+Combining Commands:
+
+
+    $ gitroot push (first move to git root folder, then push)
+    $ gitroot pull
+
+
+Other Helpful Commands
+
+    $ +ls (same as ls -l, display line by line info for all files in folder)
+
+    $ devroot (cd to dev-root)
+ 
+   Non Custom 
+
+        clear = clear window
+
+----
+
+
+Custom commands can be chained
+
+
+To open bash_profile file:
+nano ~/.bash_profile

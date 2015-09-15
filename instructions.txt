@@ -1,0 +1,23 @@
+instructions:
+
+run in terminal:
+$ nano ~/.bash_profile
+
+Copy the below text into it (MAKE SURE THE PATHS ARE CORRECT TO YOUR OPERATING SYSTEM):
+
+
+
+==== BEGIN COPY ONE LINE BELOW ====
+alias push='git push';
+alias pull='git pull';
+alias status='git status';
+alias gitroot='cd /x/y/z/;';
+alias devroot='cd /x/y/z/xx/dev-root;';
+function +ls() { ls -la -f; };
+function add() { git add "$a"; };
+function checkout() { git checkout "$a"; };
+function commit() { git commit -a -m "$a"; };
+==== END COPY ONE LINE ABOVE ====
+
+
+Be sure not to remove what is already in bash_profile. Especially any exports/
